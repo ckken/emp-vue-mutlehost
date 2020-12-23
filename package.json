@@ -1,0 +1,13 @@
+{
+  "name": "vue-multiproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "projects/*"
+  ],
+  "dependencies": {
+    "lerna": "^3.22.1"
+  }
+}
